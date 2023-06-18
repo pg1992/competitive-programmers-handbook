@@ -1,0 +1,2 @@
+10 20 Pedro
+s = "Meu nome é Pedro Guilherme Siqueira Moreira"
