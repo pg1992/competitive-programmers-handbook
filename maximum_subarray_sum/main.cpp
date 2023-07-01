@@ -43,8 +43,9 @@ ll func3(ll* array, int n) {
 int main()
 {
 	ll a[] {-1, 2, 4, -3, 5, 2, -5, 2};
+	int sz = sizeof(a) / sizeof(ll);
 
-	cout << func1(a, sizeof(a) / sizeof(ll)) << endl;
-	cout << func2(a, sizeof(a) / sizeof(ll)) << endl;
-	cout << func3(a, sizeof(a) / sizeof(ll)) << endl;
+	cout << func1(a, sz) << endl;
+	cout << func2(a, sz) << endl;
+	cout << func3(a, sz) << endl;
 }
